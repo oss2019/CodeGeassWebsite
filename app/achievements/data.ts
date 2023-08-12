@@ -4,10 +4,10 @@ import basic_img from '@/public/Projects/Images/GRAND.png'
 const data: blocksData = [
   {
     heading: 'Inter IIT TechMeet 11',
-    time: 'May',
+    time: 'Feb',
     content:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-    knowMoreLink: 'https://www.granddecoder.mit.edu/',
+      'Bronze Medal in Inter IIT TechMeet 11.0, hosted by IIT Kanpur ',
+    knowMoreLink: 'https://interiit-tech.org/',
     image: basic_img.src,
   },
   // other achievements
