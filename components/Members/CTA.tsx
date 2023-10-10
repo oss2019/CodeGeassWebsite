@@ -4,17 +4,17 @@ const CTA = () => {
   return (
     <>
       <section className='bg-transparent font-sans'>
-        <div className='py-4 px-4 mx-auto max-w-screen-xl sm:py-8 lg:px-6'>
+        <div className='py-4 px-4 mx-auto max-w-screen-xl sm:py-8 lg:px-6 flex justify-center'>
           <div className='max-w-screen-md'>
-            <h2 className='mb-4 text-4xl md:text-5xl tracking-tight font-extrabold text-white'>
-              We are very excited to welcome you
+            <h2 className='mb-4 text-4xl md:text-5xl tracking-tight font-extrabold text-white text-center'>
+              Join Our Coding Adventure
             </h2>
-            <p className='mb-2 font-light sm:text-xl text-gray-400'>
+            <p className='mb-2 font-light sm:text-xl text-blue-400'>
               Membership in the club offers a formal avenue to build a strong
               network, collaborate effectively, and enhance competitiveness.
               Joining provides valuable exposure opportunities to showcase
-              skills and talents. Expand your professional connections, foster
-              collaboration, and gain visibility by becoming a member.
+              skills and talents. Expand your professional connections,
+              foster collaboration, and gain visibility by becoming a member.
               <br />
               Prior to submitting your membership application, it is imperative
               to fulfill certain prerequisites. Begin by carefully selecting the
@@ -23,8 +23,8 @@ const CTA = () => {
             </p>
             <div>
               <ol className='space-y-4 text-white text-2xl sm:text-3xl list-inside list-decimal font-sans font-bold pt-4 tracking-tight'>
-                <li>Free and Open Source Software</li>
-                <ul className='pl-5 mt-1 space-y-1 list-disc list-inside font-light text-base sm:text-xl text-gray-300 tracking-normal'>
+                <li className='text-center'>Free and Open Source Software</li>
+                <ul className='pl-5 mt-1 space-y-1 list-disc list-inside font-light text-base sm:text-xl text-gray-200 tracking-normal'>
                   <p>
                     The prescribed procedure for applying for membership in the
                     esteemed coding club is to be comprehensively formalized as
@@ -92,7 +92,7 @@ const CTA = () => {
                     information on the application process and club guidelines.
                   </p>
                 </ul>
-                <li>Competetive Programming</li>
+                <li className='text-center'>Competetive Programming</li>
                 <ul className='pl-5 mt-1 space-y-1 list-disc list-inside font-light text-base sm:text-xl text-gray-300 tracking-normal'>
                   <p>
                     At present, our membership application process exclusively
@@ -178,7 +178,7 @@ const CTA = () => {
                     within the club.
                   </li>
                 </ul>
-                <li>Game Development Wing</li>
+                <li className='text-center'>Game Development Wing</li>
                 <ul className='pl-5 mt-1 space-y-1 list-disc list-inside font-light text-base sm:text-xl text-gray-300 tracking-normal'>
                   <p>
                     For membership application and recruitment into the club,
