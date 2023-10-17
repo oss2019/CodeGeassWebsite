@@ -30,8 +30,8 @@ const club_admis: admin_data = [
     name: 'Aryan Bandaru',
     img: '/adms/Aryan_Bandaru.jpg',
     email: '220020009@iitdh.ac.in',
-    linkedIn: 'linkedin.com/in/aryan-bandaru-441a90262',
-    instagram: 'https://instagram.com/aryanb2211/',
+    linkedIn: 'https://www.linkedin.com/in/aryan-bandaru-441a90262',
+    instagram: 'https://www.instagram.com/aryanb2211/',
     division: 'GameDev Wing',
   },
   {
