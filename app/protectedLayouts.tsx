@@ -4,11 +4,8 @@ import { useEffect } from 'react'
 import AppBarAdmin from './../components/AppBar/AppBarAdmin'
 import Footer from '@/components/Footer/Footer'
 import './globals.css'
-import AppBar from '@/components/AppBar/AppBar'
 import './globals.css'
-import { Inter } from 'next/font/google'
 import { ReactNode } from 'react'
-import { NextAuthProvider } from './../pages/provider'
 
 interface RootLayoutProps {
   // Use interface for prop types
