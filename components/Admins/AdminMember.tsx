@@ -2,7 +2,7 @@ import styles from './member.module.css'
 import Admins from './Admins'
 
 import sec_data from './data/seceretary'
-import club_admis from './data/admins_data'
+import web_team from './data/admins_data'
 
 import tmpbg from '@/public/Member/bgimg.png'
 import tmpbg2 from '@/public/Events/micro_carbon.png'
@@ -17,7 +17,7 @@ export default function AdminMembers() {
         }}
       >
         <Admins heading='Secretary' team_details={sec_data} />
-        <Admins heading='Club Admins' team_details={club_admis} />
+        <Admins heading='Web Team' team_details={web_team} />
       </div>
     </>
   )

@@ -19,8 +19,8 @@ const HeroSecondry = ({}) => {
             The Coding Club, also known as{' '}
             <span className='font-semibold'>Code Geass</span>, is an
             enthusiastic community of students dedicated to the realms of
-            coding, Web Development, Game Development, and other programming
-            disciplines. Our team consists of one secretary and five admins who
+            Competitive Coding, Web Development, Game Development, and other programming
+            disciplines. Our team consists of two secretaries and wing admins who
             diligently organize a variety of activities throughout the year.
             These include Development-focused events covering Web Development,
             Open Source projects, and Game/App Development. Additionally, we
@@ -28,11 +28,11 @@ const HeroSecondry = ({}) => {
             and engagement.
             <br /> <br />
             Should you have any inquiries, please do not hesitate to reach out
-            to any of our esteemed members at your convenience. Join us in
+            to any of our admins at your convenience. Join us in
             exploring the exciting world of programming!
           </p>
           <div className='flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4'>
-            <Link
+            {<Link
               href='/members'
               className='inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-gray-700 hover:bg-gray-800 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-900'
             >
@@ -50,13 +50,13 @@ const HeroSecondry = ({}) => {
                   clipRule='evenodd'
                 ></path>
               </svg>
-            </Link>
-            <a
+            </Link>}
+            {<a
               href='/leaderboard'
               className='inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400'
             >
               Leaderboard
-            </a>
+            </a>}
           </div>
           <div className='flex flex-row space-y-4 sm:flex-row justify-center sm:space-y-0 sm:space-x-4 py-3 px-5'>
             <Link
