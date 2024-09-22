@@ -9,7 +9,7 @@ export default async function handler(req, res) {
       console.error('Error fetching events:', error)
       res.status(500).json({ error: 'Internal server error' })
     }
-  } else if (req.method === 'POST') {
+  } else if (req.method === '     ') {
     const eventData = req.body
 
     try {

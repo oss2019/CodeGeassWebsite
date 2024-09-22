@@ -49,7 +49,7 @@ const Admins = ({ heading, team_details }: Props) => {
                   >
                     <img
                       className={styles.linkImage}
-                      src='https://img.icons8.com/material/20/mailbox-closed-flag-down--v1.png'
+                      src='https://img.icons8.com/metro/26/new-post.png'
                       width={20}
                       height={20}
                       alt='Gmail New'
@@ -66,7 +66,7 @@ const Admins = ({ heading, team_details }: Props) => {
                     >
                       <img
                         className={styles.linkImage}
-                        src='https://img.icons8.com/plasticine/100/linkedin.png'
+                        src='https://img.icons8.com/ios-filled/100/linkedin.png'
                         width={20}
                         height={20}
                         alt='Link Image'
@@ -84,7 +84,7 @@ const Admins = ({ heading, team_details }: Props) => {
                     >
                       <img
                         className={styles.linkImage}
-                        src='https://img.icons8.com/stitch/20/instagram-new.png'
+                        src='https://img.icons8.com/ios-filled/100/instagram-new--v1.png'
                         width={20}
                         height={20}
                         alt='insta images'
