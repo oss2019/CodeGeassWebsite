@@ -17,6 +17,14 @@ const sec_data: admin_data = [
     instagram: '',
     division: 'Coding Club Secretary',
   },
+  { 
+    name: 'Srihari Gonahal',
+    img: '/adms/srihari.jfif',
+    email: 'cs23bt077@iitdh.ac.in',
+    linkedIn: '',
+    instagram: '',
+    division: 'Coding Club Junior Secretary',
+  },
 ]
 
 export default sec_data

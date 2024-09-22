@@ -118,14 +118,14 @@ const CTA = () => {
                       <li>
                         <span className='font-semibold'>- 1200</span> for the{' '}
                         <span className='font-semibold'>
-                          2025 and 2026 batches,
+                          M.Tech, 2021 and 2022 batches,
                         </span>{' '}
                         and
                       </li>
                       <li>
                         <span className='font-semibold'>- 900</span> for the{' '}
                         <span className='font-semibold'>
-                          2027 and 2028 batches.
+                          2023 and 2024 batches.
                         </span>
                       </li>
                     </ul>
@@ -135,14 +135,22 @@ const CTA = () => {
                     <span className='font-semibold'>LeetCode</span> has been
                     established for each batch year. For{' '}
                     <span className='font-semibold'>
-                      2025, 2026, 2027 and 2028
+                      M.Tech, 2021 and 2022
                     </span>{' '}
-                    batch students, the minimum contest rating requirements are
+                    batch students, the minimum contest rating requirements is
                     set at{' '}
                     <span className='font-semibold'>
-                      1850, 1750, 1675 and 1600
+                      1700
                     </span>{' '}
-                    respectively.
+                    while for{' '}
+                    <span className='font-semibold'>
+                      2023 and 2024            
+                    </span>{' '}  
+                    batch students, the minimum contest rating requirements is 
+                    set at{' '}
+                    <span className='font-semibold'>
+                      1600.
+                    </span>{' '}
                   </li>
                   <li>
                     These ratings serve as indicators of your competency and
@@ -236,18 +244,18 @@ const CTA = () => {
                     <ul>
                       <li>
                         {' '}
-                        <span className='font-semibold'>- 2028 batch: </span>
+                        <span className='font-semibold'>- 2024 batch: </span>
                         HTML/CSS/JS{' '}
                       </li>
                       <li>
                         {' '}
-                        <span className='font-semibold'>- 2027 batch: </span>
+                        <span className='font-semibold'>- 2023 batch: </span>
                         ReactJS or equivalent frameworks{' '}
                       </li>
                       <li>
                         {' '}
                         <span className='font-semibold'>
-                          - 2026 and 2025 batches:{' '}
+                          - M.Tech, 2022 and 2021 batches:{' '}
                         </span>
                         Knowledge of Full Stack devlopment{' '}
                       </li>
@@ -280,7 +288,7 @@ const CTA = () => {
             </div>
             <div className='flex flex-col mt-8 space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4'>
               <Link
-                href='https://docs.google.com/document/d/1jRucEzPliQFMyHNJ87l-4Q3br8EcPv0_HPgkKTX51Vo/edit?usp=sharing'
+                href='https://docs.google.com/document/d/1jRucEzPliQFMyHNJ87l-4Q3br8EcPv0_HPgkKTX51Vo/'
                 target='_top'
                 className='inline-flex items-center justify-center px-4 py-2.5 text-base font-medium text-center border rounded-lg focus:ring-4 text-white border-gray-600 hover:bg-gray-700 focus:ring-gray-600'
               >

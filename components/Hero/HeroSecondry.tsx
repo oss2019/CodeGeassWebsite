@@ -52,10 +52,10 @@ const HeroSecondry = ({}) => {
               </svg>
             </Link>}
             {<a
-              href='/leaderboard'
+              href='/events'
               className='inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400'
             >
-              Leaderboard
+              Events
             </a>}
           </div>
           <div className='flex flex-row space-y-4 sm:flex-row justify-center sm:space-y-0 sm:space-x-4 py-3 px-5'>
