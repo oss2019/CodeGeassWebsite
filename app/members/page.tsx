@@ -10,6 +10,7 @@ import { CP } from '@/types/Members/cp.types'
 import { GD } from '@/types/Members/gd.types'
 import { members } from '@/types/Members/members.types'
 import { SiBmcsoftware, SiCodeforces } from 'react-icons/si'
+import { MdWeb } from "react-icons/md";
 import { IoGameController } from 'react-icons/io5'
 import { IoIosPeople } from 'react-icons/io'
 
@@ -183,7 +184,19 @@ const Page = () => {
               <InfoTable
                 headings={headings_foss}
                 row_data={fossArr}
-                table_heading='FOSS MEMBERS'
+                table_heading='Free and Open Source'
+                setRowData={null}
+              />
+            ) : (
+              <Loading />
+            )}
+          </Tabs.Item>
+          <Tabs.Item title='Web Development' icon={MdWeb}>
+            {fossArr ? (
+              <InfoTable
+                headings={headings_foss}
+                row_data={fossArr}
+                table_heading='Web Development'
                 setRowData={null}
               />
             ) : (

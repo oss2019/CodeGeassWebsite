@@ -25,10 +25,10 @@ const Page = async () => {
         method: 'GET',
       })
       if (res.status !== 200) {
-        console.log('Leetocde Fetch NO RESPONCE')
+        console.log('Leetocde Fetch NO RESPONSE')
         setArrlt([[]])
       }
-      console.log('Leetocde Fetch WITH RESPONCE')
+      console.log('Leetcode Fetch WITH RESPONSE')
       const data = await res.json()
       const dict_data: object[] = JSON.parse(data.leetcode)
 

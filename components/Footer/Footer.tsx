@@ -31,9 +31,11 @@ export default function Footer() {
             >
               <Link href='/'>Home</Link>
             </div>
+            {/*
             <div className={`${classes.footerlink} ${classes.navLink}`}>
               <Link href='/leaderboard'>Leaderboard</Link>
             </div>
+            */}
             <div className={`${classes.footerlink} ${classes.navLink}`}>
               <Link href='/events'>Events</Link>
             </div>
@@ -52,7 +54,7 @@ export default function Footer() {
               className={classes.footerlink}
               style={{ color: 'white', padding: '1rem' }}
             >
-              Conatct Us!
+              Contact Us!
             </h6>
             <div>
               <a

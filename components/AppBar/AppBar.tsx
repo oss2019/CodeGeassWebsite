@@ -50,35 +50,39 @@ export default function AppBar() {
               } font-sans`}
             >
               <div className={styles.option}>
-                {/* <Link href='/' scroll={false}>
+                <Link href='/' scroll={false}>
                   <div>Home</div>
-                </Link> */}
-              </div>
-              <div className={styles.option}>
-                <Link href='/events' scroll={false}>
-                  <div>Events</div>
                 </Link>
               </div>
-              <div className={styles.option}>
+              {
+                <div className={styles.option}>
+                  <Link href='/events' scroll={false}>
+                    <div>Events</div>
+                  </Link>
+                </div>
+              }
+              {/* <div className={styles.option}>
                 <Link href='/projects' scroll={false}>
                   <div>Projects</div>
                 </Link>
-              </div>
-              <div className={styles.option}>
+              </div> */}
+              {<div className={styles.option}>
                 <Link href='/members' scroll={false}>
                   <div>Members</div>
                 </Link>
-              </div>
+              </div>}
               {/* <div className={styles.option}>
                 <Link href='/sponsors' scroll={false}>
                   <div>Sponsors</div>
                 </Link>
               </div> */}
-              <div className={styles.option}>
-                <Link href='/register' scroll={false}>
-                  <div>Register</div>
-                </Link>
-              </div>
+              {
+                <div className={styles.option}>
+                  <Link href='/members/wanna_join' scroll={false}>
+                    <div>Membership</div>
+                  </Link>
+                </div>
+              }
             </div>
             <div className={styles.hamBurgerWrapper}>
               <div
