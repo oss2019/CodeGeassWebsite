@@ -90,7 +90,7 @@ const all_admins: admin_data = [
   // FOSS Wing Admins
   {
     name: 'Parikshit Gehlaut',
-    img: '/adms/xyz.jpg',
+    img: '/adms/parikshit.jpg',
     email: '',
     linkedIn: '',
     instagram: '',

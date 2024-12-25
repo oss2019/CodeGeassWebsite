@@ -58,10 +58,10 @@ export default function Footer() {
             </h6>
             <div>
               <a
-                href='mailto:coding.club@iitdh.ac.in'
+                href='mailto:codingclub@iitdh.ac.in'
                 className={classes.footerlink}
               >
-                coding.club@iitdh.ac.in
+                codingclub@iitdh.ac.in
               </a>
             </div>
             <div>
