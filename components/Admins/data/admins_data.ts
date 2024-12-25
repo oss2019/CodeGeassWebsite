@@ -40,7 +40,7 @@ const all_admins: admin_data = [
     email: '',
     linkedIn: '',
     instagram: '',
-    division: 'CP Wing Admin',
+    division: 'Competitive Programming Wing Admin',
   },
   {
     name: 'Karthik Hegde',
@@ -48,7 +48,7 @@ const all_admins: admin_data = [
     email: '',
     linkedIn: '',
     instagram: '',
-    division: 'CP Wing Admin',
+    division: 'Competitive Programming Wing Admin',
   },
   
   // Web Development Wing Admins
