@@ -78,8 +78,15 @@ export default function AppBar() {
               </div> */}
               {
                 <div className={styles.option}>
+                  <Link href='/faq' scroll={false}>
+                    <div>FAQs</div>
+                  </Link>
+                </div>
+              }
+              {
+                <div className={styles.option}>
                   <Link href='/members/wanna_join' scroll={false}>
-                    <div>Membership</div>
+                    <div>Join Us</div>
                   </Link>
                 </div>
               }

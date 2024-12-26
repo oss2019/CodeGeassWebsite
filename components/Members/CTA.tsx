@@ -58,7 +58,7 @@ const CTA = () => {
                     includes submitting code changes, bug fixes, or other
                     valuable contributions to open-source projects.
                   </li>
-                  <li>
+                  {/* <li>
                     <span className='font-semibold'>Shortlisting: </span>
                     Submissions by applicants will be reviewed, and shortlisted
                     candidates will be selected for the next stage. Shortlisting
@@ -66,10 +66,10 @@ const CTA = () => {
                     experience, and open-source contributions. Exceptional
                     contributors from the open-to-all tasks may receive
                     invitations to join the club.
-                  </li>
+                  </li> */}
                   <li>
                     <span className='font-semibold'>Selection: </span>
-                    Successful candidates, based on their interview performance
+                    Successful candidates, based on their performance in the tasks
                     and overall qualifications, will be offered membership in
                     the Coding Club.
                   </li>
@@ -288,7 +288,7 @@ const CTA = () => {
             </div>
             <div className='flex flex-col mt-8 space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4'>
               <Link
-                href='https://docs.google.com/document/d/1jRucEzPliQFMyHNJ87l-4Q3br8EcPv0_HPgkKTX51Vo/'
+                href='/members/faq'
                 target='_top'
                 className='inline-flex items-center justify-center px-4 py-2.5 text-base font-medium text-center border rounded-lg focus:ring-4 text-white border-gray-600 hover:bg-gray-700 focus:ring-gray-600'
               >

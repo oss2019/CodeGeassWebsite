@@ -43,7 +43,7 @@ export default function Footer() {
               <Link href='/members/wanna_join'>Membership Norms</Link>
             </div>
             <div className={`${classes.footerlink} ${classes.navLink}`}>
-              <Link href='https://docs.google.com/document/d/1jRucEzPliQFMyHNJ87l-4Q3br8EcPv0_HPgkKTX51Vo/edit#heading=h.n2ak0bmfqkfh'>
+              <Link href='/faq'>
                 FAQs
               </Link>
             </div>
