@@ -281,13 +281,16 @@ const CTA = () => {
                 </ul>
               </ol>
             </div>
-            <p className='text-white'>
+
+            <p className='mt-5 font-light sm:text-xl text-gray-400'>
               Please note that the specific tasks, projects, and club
               membership criteria may be subject to change or elaboration
-              by the FOSS Wing Lead or the club's Secretary. Interested
-              individuals should contact the club for the most up-to-date
-              information on the application process and club guidelines.
+              by the Wing Leads or the Club Secretaries. Interested
+              individuals should contact the club if they have any doubts
+              in the application process and club guidelines.
             </p>
+
+
             <div className='flex flex-col mt-8 space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4'>
               <Link
                 href='/members/faq'
