@@ -73,15 +73,10 @@ const CTA = () => {
                     and overall qualifications, will be offered membership in
                     the Coding Club.
                   </li>
-                  <br />
-
-                  <p className='text-white'>
-                    Please note that the specific tasks, projects, and club
-                    membership criteria may be subject to change or elaboration
-                    by the FOSS Wing Lead or the club's Secretary. Interested
-                    individuals should contact the club for the most up-to-date
-                    information on the application process and club guidelines.
-                  </p>
+                  <li>
+                    The list of open-to-all tasks can be viewed publicly on our Github page: <a href="https://github.com/users/codingclub-iitdh/projects/1" className="text-blue-500">@codingclub-iitdh's Tasks List</a>
+                  </li>
+                  <br/>
                 </ul>
 
                 <li>Competitive Programming</li>
@@ -286,6 +281,13 @@ const CTA = () => {
                 </ul>
               </ol>
             </div>
+            <p className='text-white'>
+              Please note that the specific tasks, projects, and club
+              membership criteria may be subject to change or elaboration
+              by the FOSS Wing Lead or the club's Secretary. Interested
+              individuals should contact the club for the most up-to-date
+              information on the application process and club guidelines.
+            </p>
             <div className='flex flex-col mt-8 space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4'>
               <Link
                 href='/members/faq'

@@ -111,7 +111,7 @@ const FAQ = () => {
                     in discussions related to all the topics in the community and also voice
                     your suggestions. 
                     Feedback/Suggestions can also be sent via the 
-                    <a href="https://docs.google.com/forms/d/1pIbNpp2Xv0mMzThAPMAAUSiNGOYgyb5caOG1uF2L-ZA/" className="text-blue-500"> Anonymous Feedback Form </a>
+                    <Link href="https://docs.google.com/forms/d/1pIbNpp2Xv0mMzThAPMAAUSiNGOYgyb5caOG1uF2L-ZA/" className="text-blue-500"> Anonymous Feedback Form </Link>
                     or sent directly to the club admins.
                   </p>
                   <br/>

@@ -90,6 +90,13 @@ export default function AppBar() {
                   </Link>
                 </div>
               }
+              {
+                <div className={styles.option}>
+                  <Link href='/collections/our-links' scroll={false}>
+                    <div>Links</div>
+                  </Link>
+                </div>
+              }
             </div>
             <div className={styles.hamBurgerWrapper}>
               <div
