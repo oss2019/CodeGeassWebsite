@@ -2,6 +2,15 @@ import blocksData from '@/types/Block/blockCard.types'
 
 const data = [
   {
+    id: '13',
+    title: 'DevSprint',
+    start_month: 'January 18th, 2025',
+    description:
+      "An exciting, fast-paced web development competition to create entertaining websites that captivate users. Whether you’re a frontend wizard or a backend guru, there’s a track for you!",
+    url: 'https://docs.google.com/document/d/1kKW9FjxnC_uPh2-IKjykp4e_aWlZfNE05NYELP_CHnM/edit',
+    image_url: '/Events/pics/devsprint2025.png',
+  },
+  {
     id: '12',
     title: 'CaptureTheGeese',
     start_month: 'December 27th, 2024',
