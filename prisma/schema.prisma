@@ -21,6 +21,7 @@ model Members {
   leetcode    Leetcode?
   game_dev    GameDev?
   foss        FOSS?
+  web_dev     WebDev?
 
   @@index([roll_number])
 }
@@ -57,12 +58,20 @@ model FOSS {
   member_id    String  @unique
 }
 
+model WebDev {
+  id           Int     @id @default(autoincrement())
+  github_uname String  @unique
+  member       Members @relation(fields: [member_id], references: [id], onDelete: Cascade)
+  member_id    String  @unique
+}
+
 enum Wing {
   FOSS
   GAME_DEV
   CP
   NETWORKING
   CYBERSECURITY
+  WEB_DEV
 }
 
 enum Role {
